@@ -1,0 +1,32 @@
+
+ #container{
+    widows: 960px;
+    margin: auto;
+    border: dotted grey 4px;
+ }
+
+ #rubrik{
+    text-align: center;
+    color: peru;
+    font: helvetica;
+}
+
+#sidebar{
+    background-color:rgb(240, 227, 227);
+    border: dotted grey 4px;
+    width: 140px;
+    height: 400px;
+    margin: 20px;
+}
+li {
+    background-color: rgb(240, 227, 227);
+    border: dotted grey 4px;
+    font-size: 12;
+    float: left;
+    width: 100px;
+    padding: 10px;
+    margin: 10px;
+    float: left;
+    list-style-type: none;
+    width: fit-content;
+}
