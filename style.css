@@ -14,20 +14,13 @@ body{
     float: left;
     text-align: center;
 }
-#link1 {
+ul > li {
+    list-style-type: none;
     background-color: gainsboro;
     padding: 20px;
-    
+    margin: 5px;
+    border: dotted 8px black;
 }
-#link2 {
-    background-color: rgb(196, 196, 196);
-    padding: 20px;
-}
-#link3 {
-    background-color: rgb(143, 143, 143);
-    padding: 20px;
-}
-
 
 #kropp{
     height: 400px;
