@@ -7,8 +7,10 @@
  #rubrik{
     text-align: center;
     color: rgb(134, 122, 122);
+    background-color: rgb(208, 255, 1);
     font: helvetica;
-    border: dotted 4px plum;
+    font-size: 100%;
+    border: solid 2px plum;
 }
 body{
     background-color: rgba(230, 196, 222, 0.281);
@@ -28,7 +30,7 @@ ul > li {
         margin: 10px;
         padding: 20px;
         overflow: hidden;
-        border: dotted 4px plum;
+        border: solid 4px plum;
         background-color: rgb(216, 213, 213);
         float: left;
         border-radius: 10px;
@@ -37,13 +39,14 @@ ul > li {
         background-color: plum;
     }
 
-    
-    /*
-    list-style-type: none;
-    background-color: rgb(216, 213, 213);
-    padding: 12px;
-    border: dotted 4px plum;
-}*/
+#startsida{
+position: fixed;
+top: 10px;
+left: 10px;
+font-size: 18px;
+}
+#startsida a:hover {
+    background-color: plum;}
 
 #kropp{
     height: 300px;
@@ -57,7 +60,7 @@ ul > li {
     width: 800px;
     height: 100px;
     color: rgb(134, 122, 122);
-    border: dotted 4px plum; 
+    border: solid 2px plum; 
 }
 
 .col-1 {width: 60px;}
