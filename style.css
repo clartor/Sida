@@ -2,33 +2,63 @@
  #container{
     width: 960px;
     margin: 20px auto;
+    
  }
+ #rubrik{
+    text-align: center;
+    color: rgb(134, 122, 122);
+    font: helvetica;
+    border: dotted 4px plum;
+}
 body{
-    background-color: rgba(230, 196, 222, 0.418);
+    background-color: rgba(230, 196, 222, 0.281);
+    border: dotted 2px black;
+    font-family: Helvetica, sans-serif;
 }
 
 [class*=col-]{
     border: 1px solid black;
-    margin: 10px;
+    margin: 20px 43px;
     box-sizing: border-box;
     float: left;
     text-align: center;
 }
 ul > li {
-    list-style-type: none;
-    background-color: gainsboro;
-    padding: 20px;
-    margin: 5px;
-    border: dotted 8px black;
-}
-
-#kropp{
-    height: 400px;
-    border: dotted solid plum;
-
-}
+        list-style-type: none;
+        margin: 10px;
+        padding: 20px;
+        overflow: hidden;
+        border: dotted 4px plum;
+        background-color: rgb(216, 213, 213);
+        float: left;
+        border-radius: 10px;
+      }
+      li a:hover {
+        background-color: plum;
+    }
 
     
+    /*
+    list-style-type: none;
+    background-color: rgb(216, 213, 213);
+    padding: 12px;
+    border: dotted 4px plum;
+}*/
+
+#kropp{
+    height: 300px;
+    border: dotted 4px plum;
+}
+
+#footer{
+    position: fixed;
+    bottom: 20px;
+    left: 340px;
+    width: 800px;
+    height: 100px;
+    color: rgb(134, 122, 122);
+    border: dotted 4px plum; 
+}
 
 .col-1 {width: 60px;}
 .col-2 {width: 140px;}    
@@ -45,11 +75,7 @@ ul > li {
 
 
 /*
- #rubrik{
-    text-align: center;
-    color: rgb(134, 122, 122);
-    font: helvetica;
-}
+
 
 #sidebar{
     background-color: rgb(240, 227, 227);
