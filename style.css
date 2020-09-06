@@ -34,6 +34,7 @@ ul > li {
         background-color: rgb(216, 213, 213);
         float: left;
         border-radius: 10px;
+        
       }
       li a:hover {
         background-color: plum;
@@ -62,48 +63,6 @@ font-size: 18px;
     color: rgb(134, 122, 122);
     border: solid 2px plum; 
 }
-
-.col-1 {width: 60px;}
-.col-2 {width: 140px;}    
+ 
 .col-3 {width: 220px;}
-.col-4 {width: 300px;}
-.col-5 {width: 380px;}
-.col-6 {width: 460px;}
-.col-7 {width: 540px;}
-.col-8 {width: 620px;}
-.col-9 {width: 700px;}
-.col-10 {width: 780px;}
-.col-11 {width: 860px;}
 .col-12 {width: 940px;}
-
-
-/*
-
-
-#sidebar{
-    background-color: rgb(240, 227, 227);
-    border: dotted grey 4px;
-    width: 140px;
-    height: 400px;
-    margin: 20px;
-}
-
-#kontakt{
-    font-size: 8px;
-}
-li {
-    background-color: rgb(240, 227, 227);
-    border: dotted grey 4px;
-    font-size: 12;
-    float: left;
-    width: 100px;
-    padding: 10px;
-    margin-left: 5px;
-    margin: 10px;
-    float: left;
-    list-style-type: none;
-    width: fit-content;}
-
-#kontakt{
-    font-family: Arial, Helvetica, sans-serif;
-}*/
