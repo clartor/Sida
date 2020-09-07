@@ -64,5 +64,11 @@ font-size: 18px;
     border: solid 2px plum; 
 }
  
+#jag{
+    text-align: left;
+}
+#bild{
+    float: right;
+}
 .col-3 {width: 220px;}
 .col-12 {width: 940px;}
